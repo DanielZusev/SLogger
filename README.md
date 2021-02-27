@@ -36,7 +36,8 @@ SLogger sLogger = SLogger.getInstance(this);
  sLogger.log(MainActivity.this, Severity.DEBUG, "debug log", true);
 ```
 
-### Export logs to file:
+### Export logs to file: 
+##### *screenshots & logs file stored under "Logs" directory in internal storage
 ```
  sLogger.exportLogsToFile();
 ```
